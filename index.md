@@ -12,7 +12,8 @@ We suggest to first contact the journal itself to report any issues. Many issues
 <!-- Form to redirect to various journals -->
 <!-- constructed from data in reporting.csv -->
 
-<form>
+
+<form class="journalselector"></form>
   <label for="journalSelector">Select a journal:</label>
   <select id="journalSelector" onchange="redirectToJournal()">
     <option value="none">--Select a journal--</option>
@@ -31,7 +32,7 @@ Also check the answers to the [survey conducted by the Institute for Replication
 
 ## General mechanisms
 
-In addition to or instead of the above direct contact with the journal, you may also want to publicly report the issue. The table below lists a few websites that handle these kinds of issues. To suggest additional ones, please open an issue in the [underlying Github repository]({{ site.}}).
+In addition to or instead of the above direct contact with the journal, you may also want to publicly report the issue. The table below lists a few websites that handle these kinds of issues. To suggest additional ones, please open an issue in the [underlying Github repository]({{ site.repository }}).
 
 
 <table class="display">
