@@ -13,7 +13,7 @@ We suggest to first contact the journal itself to report any issues. Many issues
 <!-- constructed from data in reporting.csv -->
 
 
-<form class="journalselector">
+<form class="journalselectorform">
   <label for="journalSelector">Select a journal:</label>
   <select id="journalSelector" onchange="redirectToJournal()">
     <option value="none">--Select a journal--</option>
@@ -70,7 +70,7 @@ All information provided on this page and in the corresponding [Github repositor
 <script>
   function redirectToJournal() {
     var journal = document.getElementById("journalSelector").value;
-    if (journal !== "none") {
+    if (journal != "none") {
       window.location = journal;
     }
   }
