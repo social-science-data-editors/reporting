@@ -13,7 +13,7 @@ We suggest to first contact the journal itself to report any issues. Many issues
 <!-- constructed from data in reporting.csv -->
 
 
-<form class="journalselector"></form>
+<form class="journalselector">
   <label for="journalSelector">Select a journal:</label>
   <select id="journalSelector" onchange="redirectToJournal()">
     <option value="none">--Select a journal--</option>
