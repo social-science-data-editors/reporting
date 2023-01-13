@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Social Science Data Editors
+repo: https://github.com/social-science-data-editors/reporting
 version: v1.0
 date: 2023-01-13
 # authors: This should be replaced by contributor lookup - there's a Github thing to do that.

@@ -32,7 +32,7 @@ Also check the answers to the [survey conducted by the Institute for Replication
 
 ## General mechanisms
 
-In addition to or instead of the above direct contact with the journal, you may also want to publicly report the issue. The table below lists a few websites that handle these kinds of issues. To suggest additional ones, please open an issue in the [underlying Github repository]({{ site.repository }}).
+In addition to or instead of the above direct contact with the journal, you may also want to publicly report the issue. The table below lists a few websites that handle these kinds of issues. 
 
 
   <!-- manually constructing table -->
@@ -62,9 +62,13 @@ In addition to or instead of the above direct contact with the journal, you may 
   {% endfor %}
 </table>
 
+## Contributing
+
+If you know of other [journal reporting mechanisms](https://github.com/social-science-data-editors/reporting/blob/main/_data/reporting.csv) or [general mechanisms](https://github.com/social-science-data-editors/reporting/blob/main/_data/alternate.csv), [create a pull request](https://github.com/social-science-data-editors/reporting/compare) on the  [underlying Github repository]({{ site.github }}). ([Here's how.](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request))
+
 ## License
 
-All information provided on this page and in the corresponding [Github repository]({{ site.gitub }}) is available under a ![CC-BY-NC](assets/cc-by-nc.png) [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
+All information provided on this page and in the corresponding [Github repository]({{ site.github}}) is available under a ![CC-BY-NC](assets/cc-by-nc.png) [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 
 <script>
