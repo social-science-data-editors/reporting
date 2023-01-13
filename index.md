@@ -35,6 +35,8 @@ Also check the answers to the [survey conducted by the Institute for Replication
 In addition to or instead of the above direct contact with the journal, you may also want to publicly report the issue. The table below lists a few websites that handle these kinds of issues. To suggest additional ones, please open an issue in the [underlying Github repository]({{ site.repository }}).
 
 
+  <!-- manually constructing table -->
+  <!-- Website,URL,Description,Contributor,Lastdate-->
 <table class="display">
   {% for row in site.data.alternate %}
     {% if forloop.first %}
@@ -51,8 +53,6 @@ In addition to or instead of the above direct contact with the journal, you may 
     </thead>
     {% endif %}
 
-  <!-- manually constructing table -->
-  <!-- Website,URL,Description,Contributor,Lastdate-->
   <tr>
     <td> {{ row["Website"] }} </td>
     <td> <a href="{{ row["URL"] }}" alt="Link to Website">{{ row["URL"] }}</a></td>
