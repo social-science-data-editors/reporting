@@ -1,11 +1,6 @@
 ---
-title: Reporting failures to reproduce or incomplete replication packages
-layout: withtable
+title: Journals
 ---
-
-This page will attempt to link to reporting mechanisms when readers of articles detect issues with replication packages. 
-
-## Journal-specific reporting mechanisms
 
 We suggest to first contact the journal itself to report any issues. Many issues can be resolved with the assistance of the editor-in-chief or the data editor of the journal. We provide a (possibly incomplete) list of such reporting mechanisms. Some are specifically oriented towards replication packages, others may be a general feedback form.
 
@@ -29,46 +24,6 @@ We suggest to first contact the journal itself to report any issues. Many issues
 
 
 Also check the answers to the [survey conducted by the Institute for Replication](https://i4replication.org/publishing.html) about whether journals publish comments and replications. 
-
-## General mechanisms
-
-In addition to or instead of the above direct contact with the journal, you may also want to publicly report the issue. The table below lists a few websites that handle these kinds of issues. 
-
-
-  <!-- manually constructing table -->
-  <!-- Website,URL,Description,Contributor,Lastdate-->
-<table class="display">
-  {% for row in site.data.alternate %}
-    {% if forloop.first %}
-    <thead>
-    <tr>
-      {% for cell in row %}
-        {% if forloop.last %}
-          {% continue %}
-        {% else %}
-        <th>{{ cell[0] }}</th>
-        {% endif %}
-      {% endfor %}
-    </tr>
-    </thead>
-    {% endif %}
-
-  <tr>
-    <td> {{ row["Website"] }} </td>
-    <td> <a href="{{ row["URL"] }}" alt="Link to Website">{{ row["URL"] }}</a></td>
-    <td> {{ row["Description"] }}</td>
-    <td class="contributor">{{ row["Contributed"] }}<br/>{{ row["Lastdate"] }}</td>
-  </tr>
-  {% endfor %}
-</table>
-
-## Contributing
-
-If you know of other [journal reporting mechanisms](https://github.com/social-science-data-editors/reporting/blob/main/_data/reporting.csv) or [general mechanisms](https://github.com/social-science-data-editors/reporting/blob/main/_data/alternate.csv), [create a pull request](https://github.com/social-science-data-editors/reporting/compare) on the  [underlying Github repository]({{ site.github }}). ([Here's how.](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request))
-
-## License
-
-All information provided on this page and in the corresponding [Github repository]({{ site.github}}) is available under a ![CC-BY-NC](assets/cc-by-nc.png) [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 
 <script>

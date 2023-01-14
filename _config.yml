@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Social Science Data Editors
+title: Reporting failures to reproduce or incomplete replication packages
 repo: https://github.com/social-science-data-editors/reporting
 version: v1.0
 date: 2023-01-13
 # authors: This should be replaced by contributor lookup - there's a Github thing to do that.
 description: >- # this means to ignore newlines until "baseurl:"
-  These pages contains useful information for any replication package, such as where to find Terms of Use, whether data can be distributed, etc.
+  These pages will attempt to link to reporting mechanisms when readers of articles detect issues with replication packages.
 baseurl: "/reporting" # the subpath of your site, e.g. /blog
 #url: "http://codedatastandard.org" # the base hostname & protocol for your site, e.g. http://example.com
 disclaimer: All information here is for information only, and may not be up-to-date.
